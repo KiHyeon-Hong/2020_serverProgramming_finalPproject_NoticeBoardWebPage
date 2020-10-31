@@ -11,7 +11,7 @@ namespace _201533892NoticeBoard
 {
 
 
-    public partial class FrmMainPage
+    public partial class FrmUpdatePage
     {
 
         /// <summary>
@@ -24,48 +24,57 @@ namespace _201533892NoticeBoard
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// searchCriteria 컨트롤입니다.
+        /// myTitle 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList searchCriteria;
+        protected global::System.Web.UI.WebControls.Label myTitle;
 
         /// <summary>
-        /// searchText 컨트롤입니다.
+        /// title 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox searchText;
+        protected global::System.Web.UI.WebControls.TextBox title;
 
         /// <summary>
-        /// search 컨트롤입니다.
+        /// myBody 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button search;
+        protected global::System.Web.UI.WebControls.Label myBody;
 
         /// <summary>
-        /// board 컨트롤입니다.
+        /// body 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label board;
+        protected global::System.Web.UI.WebControls.TextBox body;
 
         /// <summary>
-        /// addBoard 컨트롤입니다.
+        /// boardUpdate 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button addBoard;
+        protected global::System.Web.UI.WebControls.Button boardUpdate;
+
+        /// <summary>
+        /// cancel 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button cancel;
     }
 }

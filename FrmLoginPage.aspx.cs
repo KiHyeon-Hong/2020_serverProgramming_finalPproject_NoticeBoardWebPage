@@ -31,9 +31,21 @@ namespace _201533892NoticeBoard
 
             foreach (DataRow item in ds.Tables["member"].Rows)
             {
-                item["name"].ToString();
+                if((item["id"].ToString() == id.Text) && (item["pwd"].ToString() == pwd.Text))
+                {
+                    Member mem = new Member(int.Parse(item["userId"].ToString()), item["id"].ToString(), item["pwd"].ToString(), item["userName"].ToString(), int.Parse(item["birthMon"].ToString()), int.Parse(item["birthDay"].ToString()), item["phoneNum"].ToString(), int.Parse(item["alarm"].ToString()));
 
+                    Session["user"] = mem;
+
+                    Response.Redirect("~/FrmMainPage.aspx");
+                }
+                else if((item["id"].ToString() == id.Text) && (item["pwd"].ToString() != pwd.Text))
+                {
+                    Response.Write("비번 틀림");
+                }
             }
+
+            conn.Close();
         }
     }
 }

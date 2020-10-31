@@ -38,4 +38,4 @@ drop table Member;
 drop table Write;
 drop table Comment;
 
-insert into Member(id, pwd, userName, birthMon, birthDay, phoneNum, alarm) values('admin', 'admin', 'admin', 10, 2, '+821066055379', 1);
+select * from Member, Write where Member.userId = Write.userId;
