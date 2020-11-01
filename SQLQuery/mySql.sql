@@ -39,3 +39,5 @@ drop table Write;
 drop table Comment;
 
 select * from Member, Write where Member.userId = Write.userId;
+
+update Write set title=N'테스트 제목입니다3', body=N'테스트 글입니다3' where writeId=3;

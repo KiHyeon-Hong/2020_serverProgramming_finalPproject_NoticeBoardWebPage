@@ -17,7 +17,7 @@
             <table style="width: 100%;">
                 <tr>
                     <td colspan="3">
-                        <asp:Label ID="loginTitle" runat="server" Text="게시판 로그인 화면"></asp:Label>
+                        <asp:Label ID="loginTitle" runat="server" Text="게시판 로그인 화면입니다"></asp:Label>
                     </td>
                 </tr>
                 <tr>

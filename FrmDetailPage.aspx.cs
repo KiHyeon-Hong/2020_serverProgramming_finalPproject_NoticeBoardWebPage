@@ -35,6 +35,8 @@ namespace _201533892NoticeBoard
                 title.Text = $"{item["title"].ToString()}";
                 body.Text = $"{item["body"].ToString()}";
             }
+
+            conn.Close();
         }
 
         protected void boardUpdate_Click(object sender, EventArgs e)
