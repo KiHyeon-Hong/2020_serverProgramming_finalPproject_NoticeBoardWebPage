@@ -27,8 +27,8 @@ namespace _201533892NoticeBoard
             da.Fill(ds, "BoardList");
 
             string myBoard =
-                "<table border=\"1\" style=\"width: 100 %; \">" +
-                    "<tr>" +
+                "<table border=\"1\" style=\"width: 100 %; \"  class=\"table table-striped table-hover\">" +
+                    "<tr class=\"warning\">" +
                         "<td>" +
                             "제목" +
                         "</td>" +

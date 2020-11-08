@@ -40,7 +40,7 @@ namespace _201533892NoticeBoard
             cmd.ExecuteNonQuery();
             conn.Close();
 
-            //sendMessage();
+            sendMessage();
 
             Response.Redirect("~/FrmMainPage.aspx");
         }
